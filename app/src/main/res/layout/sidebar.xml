@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d2d2d"
+
+
+    >
+
+
+    <Button
+        android:id="@+id/RoomScheduleButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/RoomSchedule"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:onClick="goSchedule"
+        />
+    <Button
+        android:id="@+id/DiscoveryMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/DiscMap"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+
+        />
+
+    <Button
+        android:id="@+id/SurveyButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Survey"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        />
+
+    <Button
+        android:id="@+id/HelpButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Help"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:onClick="goHelp"
+        />
+    <Button
+        android:id="@+id/HomeButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Home"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:onClick="goHome"
+        />
+
+
+
+</LinearLayout>

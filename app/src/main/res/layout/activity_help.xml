@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:screenOrientation="landscape"
+    tools:context=".HelpActivity"
+    >
+
+
+    <fragment
+        android:layout_width="336dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="cu.libapp.Sidebar"
+        android:id="@+id/fragment"
+        tools:layout="@layout/sidebar" />
+
+    <fragment
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="cu.libapp.HelpPage"
+        android:id="@+id/fragment3"
+        tools:layout="@layout/help_page" />
+</LinearLayout>
